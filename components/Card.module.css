@@ -1,0 +1,70 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+    margin-bottom: 5%;
+}
+
+.card-container Button {
+    margin-top: 5px;
+}
+
+.card-text-container {
+    width: 100%;
+}
+
+.card-text-container h3 {
+    font-size: 26px;
+    text-align: left;
+    margin-top: 20px;
+    line-height: 100%;
+}
+
+.card-text-container h4 {
+    margin-bottom: 0;
+    margin-bottom: 2%;
+}
+
+.card-text-container p {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+
+.card-img {
+    width: 50%;
+    height: auto;
+    align-self: center;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .founder {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10%;
+    }
+}

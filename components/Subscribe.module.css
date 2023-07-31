@@ -1,0 +1,40 @@
+.subscribe-container {
+    padding: 6vh 20vw;
+    margin: 6vh 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.subscribe-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.subscribe-text-container h2 {
+    text-align: left;
+}
+
+.doodle {
+    height: auto;
+    width: 10vw;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    transform: rotate(30deg);
+}
+
+
+@media screen and (max-width: 760px) {
+    .subscribe-container {
+        padding: 6vh 10vw;
+        flex-direction: column;
+        row-gap: 10%;
+    }
+}

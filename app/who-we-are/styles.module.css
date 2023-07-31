@@ -1,0 +1,38 @@
+.team-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 12vw;
+    margin: 5vh 0;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.about-text-container {
+    margin: 8vh 12vw;
+    text-align: center;
+}
+
+.team-container h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.team-container h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-container p {
+    font-size: 14px;
+}
+
+.team-container Button {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+}

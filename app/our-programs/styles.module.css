@@ -1,0 +1,35 @@
+.programs-text-container {
+    margin: 8vh 12vw;
+    text-align: center;
+}
+
+.programs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
+    padding: 0 12vw;
+    margin: 5vh 0;
+}
+
+.programs-container h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.programs-container p {
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.programs-container Button {
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .programs-container {
+        grid-template-columns: 1fr;
+    }
+}

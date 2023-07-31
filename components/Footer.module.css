@@ -1,0 +1,120 @@
+.footer-container {
+    color: #E9F6F8;
+    box-sizing: border-box;
+    padding: 10vh 12vw;
+    max-width: 100%;
+    width: 100%;
+    border-top: #1D68B8;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    background-color: #13559c;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-container p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+}
+
+.footer-container input {
+    color: #E9F6F8;
+    border-bottom: 3px  #1D68B8 solid;
+}
+
+.footer-container ::placeholder {
+    color: rgb(235, 233, 233);
+}
+
+.footer-container button {
+    color: #E9F6F8;
+    border-color: #E9F6F8;
+}
+
+.footer-text-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+    text-align: end;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.footer-nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 5%;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+
+.footer-nav-item {
+    height: 40px;
+}
+  
+.footer-nav-links {
+    color: #E9F6F8;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+  
+.footer-nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.footer-icon {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    transition: top ease 0.5s;
+    top: 0;
+}
+
+.footer-icon:hover {
+    top: -10px;
+}
+
+@media screen and (max-width: 960px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-text-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .footer-nav-items {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+}
