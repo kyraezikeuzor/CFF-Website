@@ -7,7 +7,7 @@ function HeroSection() {
     <div className={styles['hero-container']}>
         <div className={styles["hero-div"]}>
             <h1>Teaching and empowering future coders</h1>
-            <p className={styles.caption}>Get math homework and SAT help, join small SAT® prep groups, and more–100% free for students and teachers.</p>
+            <p className={styles.caption}>Compute the Future Foundation strives to educate young students in computer science and technology.</p>
             <div className={styles['hero-btns']}>
               <Button className={styles['btn']} path='/about-us' buttonStyle='btn--outline' buttonSize='btn--large'>
                   Learn More

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import EmailForm from './EmailForm';
 import styles from './Footer.module.css';
-import pageData from '../data/pages.json';
+import pageData from '../content/pages.json';
 import Image from 'next/image';
 
 function toPath(item) {

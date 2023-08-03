@@ -1,0 +1,15 @@
+[
+    {
+        "name" : "After School Programs",
+        "description" : "Taking the SAT this fall? Learn test-taking strategies, work on practice tests.",
+        "src" : "./images/profile-standin.jpg",
+        "alt" : ""
+    },
+    {
+        "name" : "Summer Day Coding Camps",
+        "description" : "Taking the SAT this fall? Learn test-taking strategies, work on practice tests.",
+        "src" : "./images/profile-standin.jpg",
+        "alt" : ""
+    }
+
+]

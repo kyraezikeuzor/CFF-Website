@@ -2,7 +2,7 @@ import React from 'react';
 import Team from '../../components/Team';
 import Banner from '../../components/Banner'
 import styles from './styles.module.css';
-import teamData from '../../data/team.json';
+import teamData from '../../content/team.json';
 import Card from '../../components/Card'
 
 function About() {
@@ -10,16 +10,15 @@ function About() {
     <div className={styles["about-us"]}>
         <div className={styles["about-text-container"]}>
           <h1>Our Team</h1>
-          <p className={styles["caption"]}>As a Schoolhouse tutor, you can give back to other learners who need it the most, 
-            while gaining leadership experience and volunteer hours. We welcome students to 
-            become tutors–no prior experience is required!</p>
+          <p className={styles["caption"]}>Welcome to the page where we introduce you to the amazing individuals who make up our team at Compute the Future Foundation. 
+          We are a group of dedicated individuals with a shared mission: to inspire and empower young minds through computer science and technology.</p>
         </div>
 
         <div  className={styles["team-container"]}>
             {teamData.map((item, index) => (
             <Card 
             key={index}
-            src={'/images/profile-standin.jpg'}
+            src={item.src}
             alt={item.name}
             title={item.name}
             type={item.role}

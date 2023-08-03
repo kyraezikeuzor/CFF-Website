@@ -5,18 +5,13 @@
         "src" : "./images/profile-standin.jpg"
     },
     {
-        "name" : "Hackathons",
-        "lessons" : ["Idea Pitching", "Presentations", "Entrepreneurship"],
-        "src" : "./images/profile-standin.jpg"
-    },
-    {
         "name" : "Engineering",
         "lessons" : ["Arduino", "Raspberry Pi", "Makerbots"],
         "src" : "./images/profile-standin.jpg"
     },
     {
-        "name" : "Game Development",
-        "lessons" : ["Java", "Scratch", "Minecraft"],
+        "name" : "Hakathons",
+        "lessons" : ["Idea Pitching", "Teamwork", "Entrepreneurship"],
         "src" : "./images/profile-standin.jpg"
     }
     

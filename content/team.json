@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Kyra Ezikeuzor",
+        "about" : "Kyra Ezikeuzor is a high school sophomore who is interested in trees and camps.",
+        "role" : "Founder & President",
+        "src" : "./images/profile-standin.jpg"
+    },
+    {
+        "name": "Blair Middleton",
+        "about" : "Kyra Ezikeuzor is a high school sophomore who is interested in trees and camps.",
+        "role" : "Founder & President",
+        "src" : "./images/profile-standin.jpg"
+    },
+    {
+        "name": "Alyssa Wang",
+        "about" : "Hello, my name is Alyssa and I’m a rising junior at St. Agnes Academy. One of my hobbies outside of school is dance. I love computer science because it is so useful yet you can be creative with it as well. I enjoy helping others learn to code and I hope I can share my love of computer science with more youth around the Houston area!",
+        "role" : "Director of Marketing",
+        "src" : "./images/alyssa-wang-img.png"
+    },
+    {
+        "name": "Gabbi Arenas",
+        "about" : "Kyra Ezikeuzor is a high school sophomore who is interested in trees and camps.",
+        "role" : "Director of Technology",
+        "src" : "./images/profile-standin.jpg"
+    },
+    {
+        "name": "Wesley Ho",
+        "about" : "Kyra Ezikeuzor is a high school sophomore who is interested in trees and camps.",
+        "role" : "Director of Finances",
+        "src" : "./images/wesley-ho-img.png"
+    }
+
+]

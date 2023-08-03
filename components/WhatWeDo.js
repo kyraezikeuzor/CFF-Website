@@ -8,7 +8,9 @@ function WhatWeDo() {
     <div className={styles["whatwedo-container"]}>
         <div className={styles["whatwedo-text-container"]}>
             <h1>Our Learning Opportunities</h1>
-            <p>We are a non-profit with the mission of connecting the world with free, peer-to-peer tutoring.</p>
+            <p>Compute the Future Foundation is a nonprofit organization dedicated to teaching kids computer science and technology. 
+              With our comprehensive learning opportunities, we strive to equip young minds with essential skills to thrive in the digital age. 
+              Here's a quick overview of what we offer:</p>
             <Button className={styles['btn']} path='/about'  buttonSize='btn--large'>
                   About Us
             </Button>
@@ -17,9 +19,9 @@ function WhatWeDo() {
             <Card
             alt="Student"
             src="/images/cff-hero-image-grey.png"
-            type="Learn computer science with web development and engineering"
-            title="After School Programs" 
-            text="Taking the SAT this fall? Learn test-taking strategies, work on practice tests, and receive personalized support through a virtual bootcamp with 5 - 10 fellow students and a certified, trained peer tutor who has already excelled on the SAT. This program is part of a research study on the impact of a no-cost, online SAT tutoring program."
+            type="Learn computer science fundamentals."
+            title="After School Coding Workshops" 
+            text="Our coding workshops provide hands-on experience for kids to learn programming languages like Python, JavaScript, and HTML. Through interactive activities and engaging projects, students develop problem-solving abilities and stimulate their creativity."
             path="/programs"
             btnText="Learn More"
             />
@@ -28,9 +30,9 @@ function WhatWeDo() {
             flexOrder="row-reverse"
             alt="Student"
             src="/images/cff-hero-image-grey.png"
-            type="Take part in an enriching summer program"
-            title="Summer One-Day Coding Camp" 
-            text="Stuck on homework? Get live, one-on-one support from tutors certified to help in math–from Pre-Algebra to Calculus. Available every weekday, 4:00 PM-7:00 PM PST."
+            type="Introducing kids to the exciting world of robotics."
+            title="Engineering Discoveries" 
+            text="Students learn to build and program robots, enabling them to understand the fundamentals of engineering and automation while having fun in the process."
             path="/programs"
             btnText="Learn More"
             />
@@ -38,12 +40,13 @@ function WhatWeDo() {
             <Card
             alt="Student"
             src="/images/cff-hero-image-grey.png"
-            type="Take part in engaging weekend learning activities"
-            title="Virtual Weekend Programs" 
-            text="Join other learners like you to prepare for the upcoming SAT®, refresh on math concepts, get ahead for your next school year, and more!"
+            type="Delve into the world of website creation. "
+            title="Web Development Courses" 
+            text="Students learn how to design and build their own websites, gaining practical skills in HTML, CSS, and JavaScript along the way."
             path="/programs"
             btnText="Learn More"
             />
+            
 
         </div>
         <img 

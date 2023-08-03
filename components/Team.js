@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Team.module.css';
 import Card from './Card';
-import teamData from '../data/team.json';
+import teamData from '../content/team.json';
 
 function Team() {
 
@@ -10,7 +10,7 @@ function Team() {
       {teamData.map((item, index) => (
         <Card 
         key={index}
-        src={'/images/profile-standin.jpg'}
+        src={item.src}
         alt={item.name}
         title={item.name}
         type={item.role}

@@ -41,6 +41,8 @@
 
 @media screen and (max-width: 960px) {
     .hero-container {
+        align-items: center;
+        justify-content: center;
         padding: 12vh 6vw;
         flex-direction: column;
         row-gap: 1%;
@@ -48,7 +50,13 @@
 
     .hero-div, .hero-img {
         width: 100%;
+        align-self: center;
+        justify-self: center;
     }
+
+    
+
+    
 
     .hero-div h1 {
         font-size: 6ch;

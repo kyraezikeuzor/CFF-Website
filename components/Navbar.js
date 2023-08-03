@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 import Link from 'next/link';
 import { Button } from './Button';
 import styles from './Navbar.module.css';
-import pageData from '../data/pages.json';
+import pageData from '../content/pages.json';
 import Image from 'next/image';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

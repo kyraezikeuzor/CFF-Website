@@ -54,7 +54,7 @@ function EmailForm() {
             value={fields.LNAME}
             onChange={handleFieldChange}
         />
-        <button className={styles["submit-btn"]}>Subscribe</button>
+        <button className={styles["submit-btn"]}>Sign Up</button>
       </form>
       {loading && "Submitting..."}
       {error && message}

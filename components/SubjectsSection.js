@@ -1,5 +1,5 @@
 import React from 'react';
-import subjectData from '../data/subjects.json'
+import subjectData from '../content/subjects.json'
 import styles from './SubjectsSection.module.css';
 
 
