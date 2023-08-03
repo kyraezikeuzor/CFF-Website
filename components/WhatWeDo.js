@@ -10,7 +10,7 @@ function WhatWeDo() {
             <h1>Our Learning Opportunities</h1>
             <p>Compute the Future Foundation is a nonprofit organization dedicated to teaching kids computer science and technology. 
               With our comprehensive learning opportunities, we strive to equip young minds with essential skills to thrive in the digital age. 
-              Here's a quick overview of what we offer:</p>
+              Here&apos;s a quick overview of what we offer:</p>
             <Button className={styles['btn']} path='/about'  buttonSize='btn--large'>
                   About Us
             </Button>

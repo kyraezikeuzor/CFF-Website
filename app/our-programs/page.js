@@ -12,7 +12,7 @@ function Programs() {
         <div className={styles["philosophy"]}>
           <h1>Our Educational Philosophy</h1>
           <p>Our educational philosophy centers around three core values, represented by the acronym <b>FIT: Fun, Inspire, and Teach</b>. 
-            These values serve as the foundation for the organization's approach to teaching computer science and technology to kids, with a strong emphasis on creating a positive, engaging, and empowering learning environment.</p>
+            These values serve as the foundation for the organization &apos;s approach to teaching computer science and technology to kids, with a strong emphasis on creating a positive, engaging, and empowering learning environment.</p>
           
           <div className={styles["philosophy-content"]}>
 
@@ -40,10 +40,7 @@ function Programs() {
         <div className={styles["programs-text-container"]}>
           <h2>Our Programs</h2>
         
-          <p className={styles["caption"]}>Now, Schoolhouse.world reaches learners from over 100+ countries, 
-          and is proud to foster a vibrant community of over 5750+ volunteer tutors and 42500+ learners. 
-          We’re driven by our mission to connect hundreds of thousands of more learners with safe, 
-          equitable opportunities to learn, teach, and grow.</p>
+          <p className={styles["caption"]}>Our programs offer an enriching and immersive experience that equips young minds with the knowledge and skills to thrive in the digital world.</p>
         </div>
 
       <div className={styles["programs-container"]}>

@@ -7,7 +7,7 @@ function Subscribe() {
     <div className={styles["subscribe-container"]}>
         <div className={styles["subscribe-text-container"]}>
             <h1>Stay in the Loop!</h1>
-            <p>Don't miss out on the latest updates, exciting announcements, and exclusive offers from Compute the Future Foundation. 
+            <p>Don&apos;t miss out on the latest updates, exciting announcements, and exclusive offers from Compute the Future Foundation. 
               Join our inner circle and be part of the tech-savvy community shaping the future!</p>
         </div>
         <EmailForm/>
