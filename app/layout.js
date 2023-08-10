@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
         <title>Compute the Future Foundation</title>
         <meta property="description" content=""/>
         <meta property="og:image" content="../images/cff-meta-image" />
+        <link href="https://api.fontshare.com/v2/css?f[]=zodiak@401&display=swap" rel="stylesheet"/>
       </head>
       <body className={inter.className}>
         <Navbar/>

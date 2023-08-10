@@ -1,6 +1,7 @@
 :root {
     --underline-color: rgb(255, 203, 80);
     --primary-font: 'General Sans', sans-serif;
+    --italic-font: 'Zodiak', serif;
 }
 
 body {
@@ -32,6 +33,10 @@ p {
     font-size: 16px;
     line-height: 120%;
     margin-top: 2px;
+}
+
+i {
+    font-family: var(--italic-font);
 }
 
 .caption {
