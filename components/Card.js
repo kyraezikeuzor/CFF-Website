@@ -1,10 +1,11 @@
 import React from 'react';
 import {Button} from './Button';
 import styles from './Card.module.css';
+import Tags from './Tags'
 import Link from 'next/link';
 
 export const Card = ({
-  btnText, src, alt, title, type, text, flexOrder, cardStyle
+  btnText, src, alt, title, type, text, tags, flexOrder
 }) => 
 {
   const flexOrders = ['row', 'row-reverse'];
@@ -17,11 +18,14 @@ export const Card = ({
         <div className={styles["card-text-container"]}>
           <h3>{title}</h3>
           <h4>{type}</h4>
+          <Tags>
+            {tags}
+          </Tags>
           <p>{text}</p>
+          
           <Button className={styles['btn']} buttonStyle='btn--primary' buttonSize='btn--large'>
-                  {btnText}
+            {btnText}
           </Button>
-
         </div>
     </div>
   );

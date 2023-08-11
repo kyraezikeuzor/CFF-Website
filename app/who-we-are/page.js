@@ -1,5 +1,4 @@
 import React from 'react';
-import Team from '../../components/Team';
 import Banner from '../../components/Banner'
 import styles from './styles.module.css';
 import teamData from '../../content/team.json';

@@ -16,16 +16,15 @@ export default function Home() {
     <main className="home">
       <FadeInSection>
         <HeroSection/>
+        
+        <Figures/>
         <Banner text="Welcome to Compute the Future Foundation, 
         a 501(c)(3) non-profit organization, dedicated to 
         promoting computer science education."/>
       
         <WhatWeDo/>
-        <SubjectsSection/>
-      
-        <Figures/>
+        <Founders/> 
         <Subscribe/>
-        <Founders/>  
         <Banner text="Welcome to Compute the Future Foundation, 
         a 501(c)(3) non-profit organization, dedicated to 
         promoting computer science education."/>

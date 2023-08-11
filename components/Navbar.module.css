@@ -1,3 +1,9 @@
+.nav {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
 .navbar {
     background: linear-gradient(to right, #FAFFF2, #E9F6F8);
     height: 60px;
@@ -97,9 +103,9 @@
   white-space: nowrap;
   position: sticky;
   height: 2rem;
-  z-index: 0;
   overflow: hidden;
   background-color: #1D4ED8;
+  background-color: #1D68B8;
 }
 
 .scroll-text {
@@ -214,12 +220,10 @@
       text-decoration: none;
       font-size: 1.5rem;
       font-weight: 500;
-      
       color: #242424;
       padding: 14px 20px;
       box-sizing: border-box;
       transition: all 0.3s ease-out;
-
       border: 2px solid #1D68B8;
       border-radius: 5px;
       cursor: pointer;

@@ -50,7 +50,7 @@ function Navbar() {
   })
 
   return (
-    <>
+    <nav className={styles["nav"]}>
         <nav className={styles.navbar}>
           
             <div className={styles["navbar-container"]}>
@@ -83,7 +83,7 @@ function Navbar() {
         <div className={styles["scroll-container"]}>
             <p className={styles["scroll-text"]}>* Our Spring and Summer Youth Computer Science Virtual Camps for Grades 3-8 Are in Session - Sign Up Today! *</p>
         </div>
-    </>
+    </nav>
   )
 }
 
