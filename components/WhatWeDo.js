@@ -13,7 +13,7 @@ function WhatWeDo() {
               With our comprehensive learning opportunities, we strive to equip young minds with essential skills to thrive in the digital age. 
               Here&apos;s a quick overview of what we offer:</p>
             <Button className={styles['btn']} path='/about' buttonStyle='btn--outline' buttonSize='btn--large'>
-                  Learn More About US
+                  Learn More About Us
             </Button>
         </div>
         <div className={styles["programs-container"]} >

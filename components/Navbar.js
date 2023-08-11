@@ -67,14 +67,15 @@ function Navbar() {
 
                 <ul className={click ? `${styles['nav-menu']} ${styles.active}` : styles['nav-menu']}>
 
-                {itemList}
+                  {itemList}
 
                   <li className={styles['nav-item']}>
-                    <Link href='/who-we-are' className={styles['nav-links-mobile']} onClick={closeMobileMenu}>
-                      Learn More
+                    <Link href='https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96' buttonStyle='btn--outline' buttonSize='btn--large' className={styles['nav-links-mobile']} onClick={closeMobileMenu}>
+                      Make a Contribution
                     </Link>
                   </li>
-                  {button && <Button path='/who-we-are' buttonStyle='btn--outline'>Learn More</Button>}
+
+                  {button && <Button path='https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96' buttonStyle='btn--outline'>Make a Contribution</Button>}
                 
                 </ul>
         

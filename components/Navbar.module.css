@@ -51,7 +51,6 @@
     font-size: 1.8rem;
 }
 
-  
 .nav-menu {
     list-style: none;
     display: flex;
@@ -86,7 +85,6 @@
     color: black;
 }
 
-
 .nav-links-mobile {
     display: none;
 }
@@ -94,7 +92,6 @@
 .menu-icon {
     display: none;
 }
-
 
 .scroll-container {
   display: flex;
@@ -150,13 +147,11 @@
 
   
 @media screen and (max-width: 960px) {
-    .NavbarItems {
+    .nav-items {
       position: relative;
     }
-  
     .nav-menu {
       display: none;
-      
     }
   
     .nav-menu.active {
@@ -164,36 +159,31 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
-      transition: all 0.5s ease;
+      gap: 80px;
       background: linear-gradient(to right, #FAFFF2, #E9F6F8);
-
       left: 0;
-      top: 40px;
+      top: 0;
+      z-index: -1;
       width: 100%;
       height: 100vh;
-      
-      opacity: 1;
-      padding: 0 0 10vh 0;
+      padding: 0;
       box-sizing: border-box;
-    }
-
-    .nav-menu.active * {
-      margin-top: 4vh;
-      margin-bottom: 12vh;
     }
   
     .nav-links {
       justify-content: center;
       transition: all 0.5s ease;
-      padding: 2.5rem;
-      width: 50vw;
-      font-size: 20px;
+      padding: 0.5rem;
+      width: 80vw;
+      font-size: 24px;
+      border-bottom: #fff solid 2px;
+      transition: all .5s ease-in-out;
     }
   
     .nav-links:hover {
-      color: #242424;
-      border-radius: 0;
+      font-size: 26px;
+      opacity: 0.8;
+
     }
 
     .menu-icon {
@@ -204,30 +194,22 @@
       transform: translate(-100%, 30%);
       font-size: 1.8rem;
       cursor: pointer;
+      transition: all .5s ease-in-out;
     }
   
     .fa-times {
       color: black;
       font-size: 2rem;
     }
-  
+
     .nav-links-mobile {
       display: block;
-      text-align: center;
-      margin: 2rem auto;
-      border-radius: 4px;
       width: 100%;
-      text-decoration: none;
-      font-size: 1.5rem;
-      font-weight: 500;
-      color: #242424;
-      padding: 14px 20px;
-      box-sizing: border-box;
       transition: all 0.3s ease-out;
-      border: 2px solid #1D68B8;
-      border-radius: 5px;
-      cursor: pointer;
-      box-shadow: 0 2px 6px rgba(124, 123, 123, 0.2);
+      text-decoration: none;
+      color: #242424;
+      font-size: 24px;
+      font-weight: 800px;
     }
   
     .nav-links-mobile:hover {
