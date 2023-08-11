@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <div className={styles['hero-container']}>
         <div className={styles["hero-div"]}>
-            <h1>Teaching and empowering future <i>coders</i></h1>
+            <h1>Teaching and empowering future coders</h1>
             <p className={styles.caption}>Compute the Future Foundation strives to educate young students in computer science and technology.</p>
             <div className={styles['hero-btns']}>
               <Button className={styles['btn']} path='/about-us' buttonStyle='btn--outline' buttonSize='btn--large'>
