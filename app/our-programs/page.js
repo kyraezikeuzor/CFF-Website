@@ -9,14 +9,12 @@ function Programs() {
   return (
     <div className={styles["our-programs"]}>
       <FadeInSection>
-        <div className={styles["philosophy"]}>
-          <h1>Our Educational Philosophy</h1>
+        <div className={styles["philosophy"]}> 
+          <h1>Educational Principles</h1>
           <p>Our educational philosophy centers around three core values, represented by the acronym <b>FIT: Fun, Inspire, and Teach</b>. 
             These values serve as the foundation for the organization &apos;s approach to teaching computer science and technology to kids, with a strong emphasis on creating a positive, engaging, and empowering learning environment.</p>
           
           <div className={styles["philosophy-content"]}>
-
-          
             <section>
             <h3>Fun</h3>
             <p>Our educational philosophy of fun is to ensure that every student enjoys their time and has fun.</p>

@@ -7,11 +7,11 @@ import Card from '../../components/Card'
 function About() {
   return (
     <div className={styles["about-us"]}>
-        <div className={styles["about-text-container"]}>
+        <header>
           <h1>Our Team</h1>
           <p className={styles["caption"]}>Welcome to the page where we introduce you to the amazing individuals who make up our team at Compute the Future Foundation. 
           We are a group of dedicated individuals with a shared mission: to inspire and empower young minds through computer science and technology.</p>
-        </div>
+          </header>
 
         <div  className={styles["team-container"]}>
             {teamData.map((item, index) => (

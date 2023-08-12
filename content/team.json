@@ -1,14 +1,14 @@
 [
     {
         "name": "Kyra Ezikeuzor",
-        "about" : "Kyra is a 16-year-old student at St. Agnes Academy in Houston, Texas.",
+        "about" : "I am a rising junior in high school who aspires to pursue a Bioengineering major with potential minors in Computer Science or English. My ambition is to attend medical school and become a physician. My hobbies are programming, running, reading, and writing.",
         "role" : "Founder & President",
         "tags" : "Computer Science, Medicine, Writing",
         "src" : "./images/profile-standin.jpg"
     },
     {
         "name": "Blair Middleton",
-        "about" : "Kyra Ezikeuzor is a high school sophomore who is interested in trees and camps.",
+        "about" : "Blair Middleton is a high school junior who is interested in trees and camps.",
         "role" : "Founder & President",
         "tags" : "Environmentalism, Computer Science",
         "src" : "./images/profile-standin.jpg"

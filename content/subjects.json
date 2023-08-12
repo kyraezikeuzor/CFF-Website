@@ -1,17 +1,17 @@
 [
     {
         "name" : "Web Development",
-        "lessons" : ["HTML", "CSS", "JavaScript"],
+        "lessons" : "HTML 🌱, CSS, JavaScript",
         "src" : "./images/profile-standin.jpg"
     },
     {
         "name" : "Engineering",
-        "lessons" : ["Arduino", "Raspberry Pi", "Makerbots"],
+        "lessons" : "Arduino, Raspberry Pi 🌱, Makerbots",
         "src" : "./images/profile-standin.jpg"
     },
     {
         "name" : "Hakathons",
-        "lessons" : ["Idea Pitching", "Teamwork", "Entrepreneurship"],
+        "lessons" : "Idea Pitching, Teamwork, Entrepreneurship 🌱",
         "src" : "./images/profile-standin.jpg"
     }
     

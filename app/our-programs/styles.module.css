@@ -1,4 +1,6 @@
 .philosophy {
+    display: flex;
+    flex-direction: column;
     text-align: center; 
     margin: 8vh 12vw;
 }
