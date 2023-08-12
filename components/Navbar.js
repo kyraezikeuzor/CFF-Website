@@ -69,11 +69,7 @@ function Navbar() {
 
                   {itemList}
 
-                  <li className={styles['nav-item']}>
-                    <Link href='https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96' buttonStyle='btn--outline'  className={styles['nav-links-mobile']} onClick={closeMobileMenu}>
-                      Make a Contribution
-                    </Link>
-                  </li>
+                  
 
                   {button && <Button path='https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96' buttonStyle='btn--outline'>Make a Contribution</Button>}
                 

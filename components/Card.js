@@ -18,10 +18,11 @@ export const Card = ({
         <div className={styles["card-text-container"]}>
           <h3>{title}</h3>
           <h4>{type}</h4>
+          
+          <p>{text}</p>
           <Tags>
             {tags}
           </Tags>
-          <p>{text}</p>
           
           <Button className={styles['btn']} buttonStyle='btn--primary' buttonSize='btn--large'>
             {btnText}

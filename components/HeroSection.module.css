@@ -1,6 +1,6 @@
 .hero-container {
     box-sizing: border-box;
-    padding: 4vh 12vw;
+    padding: var(--hero-padding);
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -17,8 +17,6 @@
 }
 
 .hero-div h1 {
-    margin-top: 0;
-    font-size: 72px;
     text-align: left;
 }
 
@@ -53,10 +51,17 @@
         justify-self: center;
     }
     
-
     .hero-div h1 {
-        font-size: 6ch;
+        font-size: 48px;
         line-height: 80%;
     }
 
+}
+@media screen and (max-width: 760px) {
+    .hero-div {
+        align-items: center;
+    }
+    .hero-div h1, .hero-div p {
+        text-align: center;
+    }
 }

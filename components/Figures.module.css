@@ -1,5 +1,5 @@
 .figures-container {
-    padding: 6vh 10vw;
+    padding: var(--section-padding-medium);
     background-color: #F7FAFC;
     display: flex;
     flex-direction: column;

@@ -1,8 +1,14 @@
 :root {
-    --underline-color: rgb(255, 203, 80);
     --primary-font: 'General Sans', sans-serif;
     --italic-font: 'Zodiak', serif;
+    --underline-color: rgb(255, 203, 80);
     --span-color: #babcbe;
+    --highlight-color: #1D4ED8;
+    --hero-padding: 6vh 12vw;
+    --section-padding-medium: 6vh 12vw;
+    --section-padding-large: 6vh 16vw;
+    --section-gap: 40px;
+    --section-gap-small: 10px;
 }
 
 body {
@@ -16,29 +22,31 @@ span {
     height: 100px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #242424;
-    margin-bottom: 20px;
-    font-weight: 600;
+    margin-bottom: 10px;
+    font-weight: 500;
     line-height: 0.9;
 }
 
 h1 {
-    font-size: 46px;
-    line-height: 0.8;
-    letter-spacing: -2px;
+    font-size: 60px;
+    line-height: 1;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 48px;
     letter-spacing: -1px;
 }
 
+h3 {
+    font-size: 32px;
+}
 
 p {
     font-size: 16px;
-    line-height: 120%;
-    margin-top: 2px;
+    line-height: 140%;
+    margin: 5px 0;
 }
 
 i {
@@ -50,10 +58,15 @@ u {
     text-decoration-color: var(--underline-color);
 }
 
+.doodle {
+    width: 200px;
+    height: auto;
+}
+
 
 @media screen and (max-width: 960px) {
     h1 {
-        font-size: 42px;
+        font-size: 48px;
         line-height: 38px;
     }
     span {

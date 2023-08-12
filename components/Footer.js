@@ -3,7 +3,7 @@ import Link from 'next/link';
 import EmailForm from './EmailForm';
 import styles from './Footer.module.css';
 import pageData from '../content/pages.json';
-import Image from 'next/image';
+import Logo from './Logo'
 
 function toPath(item) {
   let finalString = '/' + item.toLowerCase().replaceAll(" ", "-");
@@ -24,7 +24,7 @@ function Footer() {
 
   return (
     <div className={styles["footer-container"]}>
-
+        <Logo></Logo>
         <EmailForm className={styles["footer-email-form"]}/>
 
         <div className={styles["footer-text-container"]}>
