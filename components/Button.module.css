@@ -9,11 +9,12 @@
 }
 
 .btn--primary {
-    background-color: #2D84EE;
     color: white;
+    background-color: #2D84EE;
 }
 
 .btn--outline {
+    color: #242424;
     background-color: transparent;
     border: 2px solid #1D68B8;
     transition: all 0.3s ease-out;

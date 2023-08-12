@@ -5,16 +5,16 @@ import styles from './HeroSection.module.css';
 function HeroSection() {
   return (
     <div className={styles['hero-container']}>
-      
+
         <div className={styles["hero-div"]}>
             <h1>Teaching and empowering young coders</h1>
             <p>Compute the Future Foundation strives to educate young students in computer science and technology.</p>
             
             <div className={styles['hero-btns']}>
-              <Button className={styles['btn']} path='/about-us' buttonStyle='btn--outline' buttonSize='btn--large'>
+              <Button className={styles['btn']} path='/who-we-are' buttonStyle='btn--outline' buttonSize='btn--large'>
                   Learn More
               </Button>
-              <Button className={styles['btn']} path='/our-programs' buttonStyle='btn--primary' buttonSize='btn--large'>
+              <Button className={styles['btn']} path='/our-programs' buttonSize='btn--large'>
                   Start Learning
               </Button>
             </div>
