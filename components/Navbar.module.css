@@ -54,6 +54,7 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    gap: 20px;
     position: absolute;
     right: 0;
     margin-right: 80px;
