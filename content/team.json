@@ -1,33 +1,37 @@
 [
     {
         "name": "Kyra Ezikeuzor",
-        "about" : "Kyra Ezikeuzor is a high school sophomore who is interested in trees and camps.",
+        "about" : "Kyra is a 16-year-old student at St. Agnes Academy in Houston, Texas.",
         "role" : "Founder & President",
+        "tags" : "Computer Science, Medicine, Writing",
         "src" : "./images/profile-standin.jpg"
     },
     {
         "name": "Blair Middleton",
         "about" : "Kyra Ezikeuzor is a high school sophomore who is interested in trees and camps.",
         "role" : "Founder & President",
+        "tags" : "Environmentalism, Computer Science",
         "src" : "./images/profile-standin.jpg"
     },
     {
         "name": "Alyssa Wang",
         "about" : "Hello, my name is Alyssa and I’m a rising junior at St. Agnes Academy. One of my hobbies outside of school is dance. I love computer science because it is so useful yet you can be creative with it as well. I enjoy helping others learn to code and I hope I can share my love of computer science with more youth around the Houston area!",
         "role" : "Director of Marketing",
+        "tags" : "Biology, Dance",
         "src" : "./images/alyssa-wang-img.png"
     },
     {
         "name": "Gabbi Arenas",
-        "about" : "Kyra Ezikeuzor is a high school sophomore who is interested in trees and camps.",
+        "about" : "Hello! My name is Gabbi Arenas and I am a rising junior at St. Agnes Academy in Houston. I enjoy singing in choir and I am involved in my FIRST Robotics Competition Team 3847 Spectrum. I am interested in using Computer Science and technology for the betterment of the world and I am excited to inspire others to do the same.",
         "role" : "Director of Technology",
+        "tags" : "FIRST Robotics, Choir",
         "src" : "./images/profile-standin.jpg"
     },
     {
         "name": "Wesley Ho",
-        "about" : "Kyra Ezikeuzor is a high school sophomore who is interested in trees and camps.",
+        "about" : "I'm Wesley Ho, a rising junior with diverse interests. You'll often find me on the rugby field. Besides sports, I'm actively involved in several clubs, including the Medic Club, where I learn life-saving skills. As a member of the Asian Culture Club, I cherish my heritage and enjoy celebrating it with like-minded peers. However, my true passion lies in the Computer Programming Club. Computer science fascinates me because it opens endless possibilities and has the power to shape the future.",
         "role" : "Director of Finances",
+        "tags" : "Rugby, Medicine, Asian Culture, Computer Science",
         "src" : "./images/wesley-ho-img.png"
     }
-
 ]

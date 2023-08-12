@@ -22,13 +22,11 @@ function About() {
             title={item.name}
             type={item.role}
             text={item.about}
+            tags={item.tags}
             />
             ))}
         </div>
 
-        <Banner text="Welcome to Compute the Future Foundation, 
-            a 501(c)(3) non-profit organization, dedicated to 
-            promoting computer science education."/>
     </div>
   )
 }

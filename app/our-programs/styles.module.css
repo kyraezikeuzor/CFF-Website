@@ -18,7 +18,6 @@
     margin-bottom: 5px;
 }
 
-
 .programs-text-container {
     margin: 8vh 12vw;
     text-align: center;
@@ -45,6 +44,7 @@
 
 .programs-container Button {
     font-size: 14px;
+    display: none;
 }
 
 

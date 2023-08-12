@@ -49,17 +49,13 @@ function Programs() {
           key={index}
           src={item.src}
           alt={item.alt}
-          title={item.name}
-          
-          btnText="Register"
+          type={item.name}
+          tags={item.tags}
+          btnText="Sign Up"
         /> ))}
       </div>
 
       
-
-      <Banner text="Welcome to Compute the Future Foundation, 
-            a 501(c)(3) non-profit organization, dedicated to 
-            promoting computer science education."/>
       </FadeInSection>
     </div>
   )

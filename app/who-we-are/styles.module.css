@@ -1,7 +1,7 @@
 .team-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 12vw;
+    padding: 0 10vw;
     margin: 5vh 0;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,11 @@
 .about-text-container {
     margin: 8vh 12vw;
     text-align: center;
+}
+
+.team-container img {
+    width: 200px;
+    height: auto;
 }
 
 .team-container h4 {
