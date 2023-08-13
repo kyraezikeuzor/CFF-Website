@@ -19,9 +19,7 @@ export default function SubjectsSection() {
                     </Tags>
                 </div>
             ))}
-
-        </div>
-        
+        </div>  
     </div>
   )
 }

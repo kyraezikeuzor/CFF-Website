@@ -31,7 +31,6 @@ function Founders() {
 
       <img src="/images/regular-arrow-scribble-doodle.png" alt="Arrow" className={`${styles["top-doodle"]} doodle`}></img>
       <img src="/images/arrow-scribble-doodle.png" alt="Arrow doodle"className={`${styles["bottom-doodle"]} doodle`}></img>
-      
     </div>
   )
 }

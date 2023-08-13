@@ -5,7 +5,6 @@ import { Button } from './Button';
 import styles from './Navbar.module.css';
 import pageData from '../../content/pages.json';
 import Image from 'next/image';
-import { Logo } from './Logo'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -42,10 +41,10 @@ function Navbar() {
   
   let itemList=pageData.map((item,index) => {
     if (item == "Home") {
-        return <li className={styles["nav-item"]} key={index}> <Link onClick={closeMobileMenu} className={styles["nav-links"]} href="/">{item}</Link></li>
+        return <li className={styles["nav-item"]} key={index}> <Link onClick={closeMobileMenu} className={styles["nav-links"]} target="_blank" href="/">{item}</Link></li>
     }
     else {
-        return <li className={styles["nav-item"]} key={index}> <Link  onClick={closeMobileMenu} className={styles["nav-links"]} href={toPath(item)} >{item} </Link></li>
+        return <li className={styles["nav-item"]} key={index}> <Link  onClick={closeMobileMenu} className={styles["nav-links"]} target="_blank" href={toPath(item)} >{item} </Link></li>
     }
     
   })
@@ -61,21 +60,13 @@ function Navbar() {
                 </Link>
 
                 <div className={styles["menu-icon"]} onClick={handleClick}>
-                  
                   <FontAwesomeIcon icon={click ? faXmark : faBars } className={click ? styles['fa-times'] : styles['fa-bars']}></FontAwesomeIcon>
-                
                 </div>
 
                 <ul className={click ? `${styles['nav-menu']} ${styles.active}` : styles['nav-menu']}>
-
                   {itemList}
-
-                  
-
                   {button && <Button path='https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96' buttonStyle='btn--outline'>Make a Contribution</Button>}
-                
                 </ul>
-        
             </div>
         </nav>
         <div className={styles["scroll-container"]}>

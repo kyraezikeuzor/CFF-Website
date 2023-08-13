@@ -4,7 +4,7 @@ import {Button} from '../Global/Button'
 
 export default function Figures() {
   return (
-    <div className={styles["figures-container"]}>
+    <div className={styles.figures}>
         <section className={styles["figures-text-container"]}>
           <div className={styles["donate-text-container"]}>
               <h3>We are a non-profit with the mission of inspiring students</h3>
@@ -19,25 +19,24 @@ export default function Figures() {
           </div>
         </section>
 
-        <div className={styles["figures"]}>
-              <div className={styles["figure"]}>
-                <h3>6+</h3>
-                <p>Team Members</p>
-              </div>
-              <div className={styles["figure"]}>
-                <h3>$1600+</h3>
-                <p>Raised</p>
-              </div>
-              <div className={styles["figure"]}>
-                <h3>10+</h3>
-                <p>Donors</p>
-              </div>
-              <div className={styles["figure"]}>
-                <h3>20+</h3>
-                <p>Donations</p>
-              </div>
-            </div>
-        
+        <div className={styles["figures-container"]}>
+          <div className={styles["figure"]}>
+            <h3>6+</h3>
+            <p>Team Members</p>
+          </div>
+          <div className={styles["figure"]}>
+            <h3>$1600+</h3>
+            <p>Raised</p>
+          </div>
+          <div className={styles["figure"]}>
+            <h3>10+</h3>
+            <p>Donors</p>
+          </div>
+          <div className={styles["figure"]}>
+            <h3>20+</h3>
+            <p>Donations</p>
+          </div>
+        </div>
     </div>
   )
 }

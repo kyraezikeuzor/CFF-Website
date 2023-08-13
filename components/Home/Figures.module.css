@@ -1,4 +1,4 @@
-.figures-container {
+.figures {
     padding: var(--section-padding-medium);
     background-color: #F7FAFC;
     display: flex;
@@ -17,7 +17,7 @@
     width: 50%;
 }
 
-.figures {
+.figures-container {
     font-size: 18px;
     display: flex;
     flex-direction: row;
@@ -42,7 +42,7 @@
     .donate-text-container {
         width: 100%;
     }
-    .figures {
+    .figures-container {
         flex-direction: column;
     }
 }
