@@ -1,8 +1,8 @@
 import React from 'react';
-import {Card} from './Card';
+import {Card} from '../Global/Card';
 import styles from './WhatWeDo.module.css';
-import {Button} from './Button';
-import Tags from './Tags'
+import {Button} from '../Global/Button';
+import Tags from '../Global/Tags'
 
 function WhatWeDo() {
   return (

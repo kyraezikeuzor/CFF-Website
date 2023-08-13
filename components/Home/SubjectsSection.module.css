@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: var(--section-gap-small);
     background-color: #F7FAFC;
 }
 
@@ -14,8 +13,7 @@
 
 .subjects-container h4 {
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .subjects {

@@ -1,36 +1,16 @@
-.philosophy {
-    display: flex;
-    flex-direction: column;
-    text-align: center; 
-    margin: 8vh 12vw;
+.main {
+    margin: var(--page-margin);
 }
 
-.philosophy h1 {
-    text-align: center;
-}
-
-.philosophy-content {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.philosophy-content h3 {
-    font-size: 32px;
-    margin-bottom: 5px;
-}
-
-.programs-text-container {
-    margin: 8vh 12vw;
-    text-align: center;
+.main header {
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .programs-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
-    padding: 0 12vw;
-    margin: 5vh 0;
 }
 
 .programs-container h3 {
@@ -50,12 +30,7 @@
 }
 
 
-
 @media screen and (max-width: 960px) {
-    .philosophy-content {
-        flex-direction: column;
-    }
-
     .programs-container {
         grid-template-columns: 1fr;
     }

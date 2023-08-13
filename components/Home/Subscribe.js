@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Subscribe.module.css';
-import EmailForm from './EmailForm';
+import EmailForm from '../Global/EmailForm';
 
 function Subscribe() {
   return (

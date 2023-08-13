@@ -1,45 +1,18 @@
 import React from 'react';
-import Card from '../../components/Card';
+import Card from '../../components/Global/Card';
 import programData from '../../content/programs.json';
-import Banner from '../../components/Banner';
-import FadeInSection from '../../components/FadeInSection';
+import Banner from '../../components/Global/Banner';
+import FadeInSection from '../../components/Global/FadeInSection';
 import styles from './styles.module.css';
 
 function Programs() {
   return (
-    <div className={styles["our-programs"]}>
+    <main className={styles.main}>
       <FadeInSection>
-        <div className={styles["philosophy"]}> 
-          <h1>Educational Principles</h1>
-          <p>Our educational philosophy centers around three core values, represented by the acronym <b>FIT: Fun, Inspire, and Teach</b>. 
-            These values serve as the foundation for the organization &apos;s approach to teaching computer science and technology to kids, with a strong emphasis on creating a positive, engaging, and empowering learning environment.</p>
-          
-          <div className={styles["philosophy-content"]}>
-            <section>
-            <h3>Fun</h3>
-            <p>Our educational philosophy of fun is to ensure that every student enjoys their time and has fun.</p>
-            </section>
-            
-            <section>
-            <h3>Inspire</h3>
-            <p>Our educational philosophy of inspire is to inspire the new generation into computer science.</p>
-            </section>
-
-            <section>
-            <h3>Teach</h3>
-            <p>Our educational philosophy of teaching is to teach and educate the next generation of coders.</p>
-            </section>
-
-          </div>
-        
-        </div>
-
-
-        <div className={styles["programs-text-container"]}>
+        <header>
           <h2>Our Programs</h2>
-        
           <p className={styles["caption"]}>Our programs offer an enriching and immersive experience that equips young minds with the knowledge and skills to thrive in the digital world.</p>
-        </div>
+        </header>
 
       <div className={styles["programs-container"]}>
         {programData.map((item, index) => ( 
@@ -55,7 +28,7 @@ function Programs() {
 
       
       </FadeInSection>
-    </div>
+    </main>
   )
 }
 

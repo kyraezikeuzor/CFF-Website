@@ -2,11 +2,14 @@
     --primary-font: 'General Sans', sans-serif;
     --italic-font: 'Zodiak', serif;
     --underline-color: rgb(255, 203, 80);
-    --span-color: #babcbe;
+    --span-color: #d3d5d7;
     --highlight-color: #1D4ED8;
-    --hero-padding: 6vh 12vw;
-    --section-padding-medium: 6vh 12vw;
-    --section-padding-large: 6vh 16vw;
+    --footer-body-color: #12263F;
+    --page-margin: 8vh 12vw;
+    --hero-padding: 10vh 12vw;
+    --footer-padding: 10vh 16vw;
+    --section-padding-medium: 8vh 12vw;
+    --section-padding-large: 8vh 16vw;
     --section-gap: 40px;
     --section-gap-small: 10px;
 }
@@ -63,14 +66,13 @@ u {
     height: auto;
 }
 
-
 @media screen and (max-width: 960px) {
     h1 {
         font-size: 48px;
         line-height: 38px;
     }
     span {
-        width: 100px;
-        height: 2px;
+        width: 200px;
+        height: 1px;
     }
 }

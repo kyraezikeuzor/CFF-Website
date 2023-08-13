@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Figures.module.css';
-import {Button} from './Button'
+import {Button} from '../Global/Button'
 
 export default function Figures() {
   return (
@@ -12,7 +12,6 @@ export default function Figures() {
           </div>
 
           <span/>
-
 
           <div className={styles["figures-text"]}>
               <h3>Founded by Houston high school students</h3>

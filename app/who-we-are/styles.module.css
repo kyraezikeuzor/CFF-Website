@@ -1,17 +1,19 @@
-.about-us header {
-    margin: 8vh 12vw;
+.main {
+    margin: var(--page-margin);
+}
+
+.main header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .team-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 5vh 10vw;
     justify-content: flex-start;
     align-items: center;
-    gap: 30px;
+    gap: var(--section-gap);
 }
-
 
 .team-container img {
     width: 200px;

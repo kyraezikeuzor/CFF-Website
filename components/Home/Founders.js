@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Founders.module.css';
-import {Card} from './Card';
-import {Button} from './Button';
-import teamData from '../content/team.json';
+import {Card} from '../Global/Card';
+import {Button} from '../Global/Button';
+import teamData from '../../content/team.json';
 
 function Founders() {
   let foundersList = teamData.map((item, index) => {

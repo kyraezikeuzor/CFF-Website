@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from './Button';
+import {Button} from '../Global/Button';
 import styles from './HeroSection.module.css';
 
 function HeroSection() {
