@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>Compute the Future Foundation</title>
         <meta property="description" content="Compute the Future Foundation strives to educate young students in computer science and technology."/>
-        <meta property="og:image" content="../images/cff-meta-image" />
+        <meta property="og:image" content="../images/cff-meta-image.png" />
         <link href="https://api.fontshare.com/v2/css?f[]=zodiak@401&display=swap" rel="stylesheet"/>
       </head>
       <body className={inter.className}>
