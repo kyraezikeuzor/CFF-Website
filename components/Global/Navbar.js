@@ -41,10 +41,10 @@ function Navbar() {
   
   let itemList=pageData.map((item,index) => {
     if (item == "Home") {
-        return <li className={styles["nav-item"]} key={index}> <Link onClick={closeMobileMenu} className={styles["nav-links"]} target="_blank" href="/">{item}</Link></li>
+        return <li className={styles["nav-item"]} key={index}> <Link onClick={closeMobileMenu} className={styles["nav-links"]} href="/">{item}</Link></li>
     }
     else {
-        return <li className={styles["nav-item"]} key={index}> <Link  onClick={closeMobileMenu} className={styles["nav-links"]} target="_blank" href={toPath(item)} >{item} </Link></li>
+        return <li className={styles["nav-item"]} key={index}> <Link  onClick={closeMobileMenu} className={styles["nav-links"]} href={toPath(item)} >{item} </Link></li>
     }
     
   })
