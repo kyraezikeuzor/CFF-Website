@@ -6,7 +6,7 @@
 
 .navbar {
     background: linear-gradient(to right, #FAFFF2, #E9F6F8);
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,6 @@
     position: sticky;
     top: 0;
     z-index: 1;
-    border-bottom: solid white 2px;
 }
   
 .navbar-container {
@@ -102,16 +101,20 @@
   align-items: center;
   white-space: nowrap;
   position: sticky;
-  height: 2rem;
+  height: 2.5rem;
   overflow: hidden;
   background-color: #1D4ED8;
   background-color: #1D68B8;
+  background-color: white;
+  border-bottom: solid #fff 2px;
 }
 
 .scroll-text {
   font-size: 14px;
-  margin: 5% 0;
+  margin: 0;
   color: white;
+  color: #1D68B8;
+  font-weight: 600;
 
   /* Animation Properties */
   -moz-transform: translateX(100%);

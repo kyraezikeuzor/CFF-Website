@@ -9,7 +9,7 @@ function Founders() {
     if (item.role == "Founder & President") {
       return <Card 
       key={index}
-      src={'/images/profile-standin.jpg'}
+      src={item.src}
       alt={item.name}
       />
     }

@@ -13,7 +13,6 @@ import {faXmark, faBars} from "@fortawesome/free-solid-svg-icons";
 
 function toPath(item) {
   let finalString = '/' + item.toLowerCase().replaceAll(" ", "-");
-
   return finalString;
 }
 
@@ -51,8 +50,10 @@ function Navbar() {
 
   return (
     <nav className={styles["nav"]}>
+      <div className={styles["scroll-container"]}>
+            <p className={styles["scroll-text"]}>* Our Spring and Summer Youth Computer Science Virtual Camps for Grades 3-8 Are in Session - Sign Up Today! *</p>
+        </div>
         <nav className={styles.navbar}>
-          
             <div className={styles["navbar-container"]}>
                 <Link href='/' className={styles["navbar-logo"]} onClick={closeMobileMenu}> 
                     <Image width={40} height={40} src='/images/computethefuturelogo.png' alt="" />
@@ -69,9 +70,6 @@ function Navbar() {
                 </ul>
             </div>
         </nav>
-        <div className={styles["scroll-container"]}>
-            <p className={styles["scroll-text"]}>* Our Spring and Summer Youth Computer Science Virtual Camps for Grades 3-8 Are in Session - Sign Up Today! *</p>
-        </div>
     </nav>
   )
 }

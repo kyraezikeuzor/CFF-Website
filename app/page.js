@@ -24,7 +24,7 @@ export default function Home() {
       
         <WhatWeDo/>
         <Founders/> 
-        <SubjectsSection/>
+        
         <Subscribe/>
         
       </FadeInSection>
