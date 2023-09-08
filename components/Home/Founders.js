@@ -7,7 +7,7 @@ import teamData from '../../content/team.json';
 function Founders() {
   let foundersList = teamData.map((item, index) => {
     if (item.role == "Founder & President") {
-      return <Section 
+      return <img 
       key={index}
       src={item.src}
       alt={item.name}

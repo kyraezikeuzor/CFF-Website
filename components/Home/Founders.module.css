@@ -38,15 +38,15 @@
 .founders-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
-    gap: var(--section-gap);
+    gap: 20px;
 }
 
 .founders-container img {
-    width: 200px;
+    width: 250px;
     height: auto;
+    border-radius: 8px;
 }
 
 .founders-container Button {

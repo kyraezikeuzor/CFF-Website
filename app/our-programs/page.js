@@ -18,9 +18,10 @@ function Programs() {
           key={index}
           src={item.src}
           alt={item.alt}
-          type={item.name}
+          title={item.name}
           tags={item.tags}
           btnText="Sign Up"
+          text={item.description}
         /> ))}
       </div>
     </main>

@@ -7,7 +7,7 @@
     box-sizing: border-box;
     height: auto;
     width: 25vw;
-    padding: 50px;
+    padding: 30px;
     border-radius: 12px;
     background-color: rgb(253, 253, 255);
     box-shadow: var(--shadow-primary);
