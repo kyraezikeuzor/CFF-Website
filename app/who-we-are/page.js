@@ -3,6 +3,7 @@ import Banner from '../../components/Global/Banner'
 import styles from './styles.module.css';
 import teamData from '../../content/team.json';
 import Card from '../../components/Global/Card'
+import Section from '../../components/Global/Section'
 
 function About() {
   return (
@@ -13,9 +14,10 @@ function About() {
           We are a group of dedicated individuals with a shared mission: to inspire and empower young minds through computer science and technology.</p>
         </header>
 
-        <div  className={styles["team-container"]}>
+        <div className={styles["team-container"]}>
             {teamData.map((item, index) => (
-            <Card 
+            <Section 
+            imageSize="medium"
             key={index}
             src={item.src}
             alt={item.name}

@@ -1,18 +1,38 @@
 [
-    {
-        "name" : "Web Development",
-        "lessons" : "HTML 🌱, CSS, JavaScript",
-        "src" : "./images/profile-standin.jpg"
-    },
-    {
-        "name" : "Engineering",
-        "lessons" : "Arduino, Raspberry Pi 🌱, Makerbots",
-        "src" : "./images/profile-standin.jpg"
-    },
-    {
-        "name" : "Hackathons",
-        "lessons" : "Idea Pitching, Teamwork, Entrepreneurship 🌱",
-        "src" : "./images/profile-standin.jpg"
-    }
-    
+   {
+        "name" : "HTML",
+        "tag" : "Web Development",
+        "text" : "A coding language that web developers use to create and structure content on websites.",
+        "src" : "/html-5.png"
+   },
+   {
+        "name" : "CSS",
+        "tag" : "Web Development",
+        "text" : "A language that styles and format elements on a webpage to ensure a website is user-friendly.",
+        "src" : "/css-3.png"
+   },
+   {
+        "name" : "JavaScript",
+        "tag" : "Web Development",
+        "text" : "Adds life and functionality to the static pages of the internet, making them more engaging and useful.",
+        "src" : "/js.png"
+   },
+   {
+        "name" : "Python",
+        "tag" : "Engineering Discoveries",
+        "text" : "Used to create programs and software, websites, video games, scientific research, and controlling robots.",
+        "src" : "/python.png"
+   },
+   {
+        "name" : "Arduino",
+        "tag" : "Engineering Discoveries",
+        "text" : "A small computer designed to help people create electronic projects, from robots and smart gadgets to interactive art.",
+        "src" : "cpu.png"
+   },
+   {
+        "name" : "Raspberry Pi",
+        "tag" : "Engineering Discoveries",
+        "text" : "A tiny, affordable computer that is designed for creating games, robots, or smart devices.",
+        "src" : "/raspberry-pi.png"
+   }
 ]

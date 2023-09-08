@@ -22,20 +22,6 @@
     gap: var(--section-gap);
 }
 
-.programs-container h3 {
-    text-transform: uppercase;
-    opacity: 0.8;
-    font-size: 14px;
-    margin-bottom: 5px;
-    margin-top: 20px;
-}
-
-.programs-container h4 {
-    font-size: 28px;
-    margin: 0;
-}
-
-
 .doodle {
     display: none;
     height: auto;

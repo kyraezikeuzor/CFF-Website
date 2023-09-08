@@ -66,7 +66,7 @@ function Navbar() {
 
                 <ul className={click ? `${styles['nav-menu']} ${styles.active}` : styles['nav-menu']}>
                   {itemList}
-                  {button && <Button path='https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96' buttonStyle='btn--outline'>Make a Contribution</Button>}
+                  {button && <Button path='https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96' buttonStyle='btn--outline' buttonSize='btn--large'>Donate</Button>}
                 </ul>
             </div>
         </nav>

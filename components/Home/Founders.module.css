@@ -1,53 +1,44 @@
-.founders-container {
+.founders {
     position: relative;
     max-width: 100%;
-    padding: var(--section-padding-medium);
+    padding: var(--section-padding-large);
     box-sizing: border-box;
     border-radius: 8px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: var(--section-gap);
-    background-color: #f7fcfd;
-    background-color: #fff;
-}
-
-.founders-container h1 {
     text-align: center;
 }
 
-.founders-container Button {
+.founders p {
+    text-align: left;
+}
+
+.founders Button {
     padding: 10px 20px;
     font-size: 18px;
 }
 
-.founders-content-container {
+.founders-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    gap: 5px;
+    gap: var(--section-gap);
 }
 
-.founders-content-container img {
+.founders-container img {
     width: 200px;
     height: auto;
 }
 
-.founders-content-container Button {
+.founders-container Button {
     display: none;
 }
 
-.top-doodle {
-    height: auto;
-    width: 10vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: rotate(90deg);
-}
 
 .bottom-doodle {
     height: auto;
@@ -59,7 +50,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    .founders-container {
+    .founders {
         flex-direction: column;
     }
 }
@@ -67,10 +58,10 @@
     .founders-container {
         text-align: center;
     }
-    .founders-content-container {
+    .founders-container {
         flex-direction: column;
     }
-    .founders-content-container img {
+    .founders-container img {
         width: 100%;
         height: auto;
     }

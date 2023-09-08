@@ -1,0 +1,17 @@
+.accordion * {
+    margin: 0;
+ }
+
+.accordion {
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+}
+
+.accordion h5, .chevron {
+    cursor: pointer;
+}
+ 
+.accordion-content {
+    padding: 10px;
+}

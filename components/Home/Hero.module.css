@@ -13,18 +13,20 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    row-gap: 5%;
+}
+
+.hero-div p {
+    font-size: 16px;
+    inline-size: 75%;
+    overflow-wrap: break-word;
 }
 
 .hero-div h1 {
     text-align: left;
 }
 
-.hero-div p {
-    font-size: 18px;
-}
-
 .hero-btns {
+    margin-top: 30px;
     display: flex;
     align-items: center;
     column-gap: 10px;

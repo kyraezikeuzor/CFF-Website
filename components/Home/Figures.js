@@ -8,7 +8,7 @@ export default function Figures() {
         <section className={styles["figures-text-container"]}>
           <div className={styles["donate-text-container"]}>
               <h3>We are a non-profit with the mission of inspiring students</h3>
-              <Button path="https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96" buttonStyle="btn--outline">Make a Contribution</Button>
+              <Button path="https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96" buttonStyle='btn--outline' buttonSize="btn--large">Make a Contribution</Button>
           </div>
 
           <span/>

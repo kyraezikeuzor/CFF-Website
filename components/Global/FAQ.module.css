@@ -1,0 +1,14 @@
+.section {
+    padding: var(--section-padding-large);
+    background-color: #f8fbfd;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
