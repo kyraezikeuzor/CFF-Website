@@ -8,7 +8,7 @@ function WhatWeDo() {
   return (
     <div className={styles["whatwedo-container"]}>
         <div className={styles["whatwedo-text-container"]}>
-            <h2>What We Do</h2>
+            <h1>What We Do</h1>
             <p>With our comprehensive learning opportunities, we strive to equip young minds with essential skills to thrive in the digital age. 
               Here&apos;s a quick overview of what we offer:</p>
             
