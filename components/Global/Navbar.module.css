@@ -149,6 +149,9 @@
 
   
 @media screen and (max-width: 960px) {
+    .navbar-logo {
+      font-size: 15px;
+    }
     .nav-items {
       position: relative;
     }
