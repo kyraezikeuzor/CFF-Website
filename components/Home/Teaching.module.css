@@ -6,6 +6,19 @@
     align-items: center;
 }
 
+.subjects-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subjects-text-container p {
+    text-align: center;
+    inline-size: 75%;
+    overflow-wrap: break-word;
+}
+
 .subjects {
     margin-top: 20px;
     display: flex;
@@ -18,6 +31,10 @@
 @media screen and (max-width: 960px) {
     .subjects-container {
         flex-direction: column;
+    }
+
+    .subjects-text-container p {
+        inline-size: 100%;
     }
 
     .subjects {

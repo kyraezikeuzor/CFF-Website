@@ -7,7 +7,7 @@
     box-sizing: border-box;
     height: auto;
     width: 25vw;
-    padding: 4vh 2vw;
+    padding: 6vh 3vw;
     border-radius: 12px;
     background-color: rgb(253, 253, 255);
     box-shadow: var(--shadow-primary);
@@ -50,6 +50,6 @@
 
 @media screen and (max-width: 960px) {
     .card {
-        width: 50vw;
+        width: 100%;
     }
 }

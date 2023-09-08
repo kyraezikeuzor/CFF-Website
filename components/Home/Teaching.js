@@ -4,12 +4,14 @@ import styles from './Teaching.module.css';
 import Tags from '../Global/Tags'
 import Card from '../Global/Card'
 
-export default function SubjectsSection() {
+export default function Teaching() {
   return (
     <div className={styles["subjects-container"]}>
-        <h1>Teaching</h1>
-        <p>Our courses include engaging lessons and activities that culminate in project showcases and coding competitions called Hackathons where your child will collaborate, share ideas, and compete for fun prizes. </p>
-        
+        <div className={styles["subjects-text-container"]}>
+            <h1>Teaching</h1>
+            <p>Our courses include engaging lessons and activities that culminate in project showcases and coding competitions called Hackathons where your child will collaborate, share ideas, and compete for fun prizes. </p>
+            
+        </div>
         <div className={styles["subjects"]}>
             {subjectData.map((item, index) => (
                 <Card

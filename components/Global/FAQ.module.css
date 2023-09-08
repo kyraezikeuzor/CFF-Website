@@ -1,5 +1,5 @@
 .section {
-    padding: var(--section-padding-large);
+    padding: var(--section-padding-medium);
     background-color: #f8fbfd;
 }
 
