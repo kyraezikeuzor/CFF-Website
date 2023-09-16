@@ -33,5 +33,12 @@
         "role" : "Director of Finances",
         "tags" : "Rugby, Medicine, Computer Science",
         "src" : "./images/team/wesley-ho-img.png"
+    },
+    {
+        "name": "Donald Chu",
+        "about" : "My name is Donald Chu",
+        "role" : "Director of Curriculum",
+        "tags" : "Computer Science",
+        "src" : "./images/profile-standin.jpg"
     }
 ]

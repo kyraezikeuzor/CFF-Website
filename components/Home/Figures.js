@@ -21,7 +21,7 @@ export default function Figures() {
 
         <div className={styles["figures-container"]}>
           <div className={styles["figure"]}>
-            <h3>6+</h3>
+            <h3>6</h3>
             <p>Team Members</p>
           </div>
           <div className={styles["figure"]}>
