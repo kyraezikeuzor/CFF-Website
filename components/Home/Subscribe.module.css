@@ -1,5 +1,5 @@
 .subscribe-container {
-    padding: var(--section-padding-large);
+    padding: var(--padding-large);
     margin: 6vh 0;
     border-radius: 8px;
     display: flex;

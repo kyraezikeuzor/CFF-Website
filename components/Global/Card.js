@@ -15,8 +15,7 @@ export const Card = ({
     <div className={ `${styles["card"]} ${styles[checkFlexOrder]}`}>
         {/*<img src={src}></img>*/}
         <div className={styles["card-text-container"]}>
-          <h3>{title}</h3>
-          
+          <h4>{title}</h4>
           <p>{text}</p>
           <Tags>
             {tags}

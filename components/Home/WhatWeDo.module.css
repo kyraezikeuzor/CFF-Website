@@ -3,23 +3,8 @@
     display: flex;
     flex-direction: column;
     gap: var(--section-gap);
-    padding: var(--section-padding-large);
+    padding: var(--padding-large);
     max-width: 100%;
-}
-
-.whatwedo-text-container {
-    display: flex;
-    flex-direction: column;
-    gap: var(--section-gap-small);
-    text-align: center;
-    align-items:center;
-    justify-content: center;
-}
-
-.whatwedo-text-container p {
-    text-align: center;
-    inline-size: 75%;
-    overflow-wrap: break-word;
 }
 
 .programs-container {
@@ -30,22 +15,9 @@
     gap: var(--section-gap);
 }
 
-.doodle {
-    display: none;
-    height: auto;
-    width: 10vw;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-}
-
 @media screen and (max-width: 960px) {
     .whatwedo-container {
         padding: 6vh 10vw;
-    }
-
-    .whatwedo-text-container p {
-        inline-size: 100%;
     }
 
     .programs-container {

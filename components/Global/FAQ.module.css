@@ -1,6 +1,6 @@
 .section {
-    padding: var(--section-padding-medium);
-    background-color: #f8fbfd;
+    padding: var(--padding-large);
+    background-color: var(--color-tertiary);
 }
 
 .section h1 {
@@ -10,5 +10,5 @@
 .faqs {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 }

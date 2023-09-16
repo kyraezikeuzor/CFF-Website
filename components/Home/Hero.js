@@ -3,12 +3,15 @@ import {Button} from '../Global/Button';
 import styles from './Hero.module.css';
 
 function HeroSection() {
+
+
   return (
     <div className={styles.hero}>
         <div className={styles["hero-div"]}>
-            <h1>Teaching and empowering young coders</h1>
-            <p>Educating young learners in computer science and technology. Impacting the youth in our local communities by giving them the tools to expand their interests and aspirations.
-</p>
+        
+            <h1>Teaching and empowering young learners</h1>
+          
+            <p>Educating young learners in computer science and technology. Impacting the youth in our local communities by giving them the tools to expand their aspirations.</p>
             
             <div className={styles['hero-btns']}>
               <Button className={styles['btn']} path='/who-we-are' buttonStyle='btn--outline' buttonSize='btn--large'>

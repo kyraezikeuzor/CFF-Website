@@ -3,18 +3,11 @@ import React, {useState, useEffect} from 'react';
 import Link from 'next/link';
 import { Button } from './Button';
 import styles from './Navbar.module.css';
-import pageData from '../../content/pages.json';
-import Image from 'next/image';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-// import icons
+import pageData from '../../content/navpages.json';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faXmark, faBars} from "@fortawesome/free-solid-svg-icons";
+import {toPath} from '../../utilities';
 
-function toPath(item) {
-  let finalString = '/' + item.toLowerCase().replaceAll(" ", "-");
-  return finalString;
-}
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -38,14 +31,8 @@ function Navbar() {
     
   }, []);
   
-  let itemList=pageData.map((item,index) => {
-    if (item == "Home") {
-        return <li className={styles["nav-item"]} key={index}> <Link onClick={closeMobileMenu} className={styles["nav-links"]} href="/">{item}</Link></li>
-    }
-    else {
-        return <li className={styles["nav-item"]} key={index}> <Link  onClick={closeMobileMenu} className={styles["nav-links"]} href={toPath(item)} >{item} </Link></li>
-    }
-    
+  let itemList = pageData.map((item,index) => {
+    return <li className={styles["nav-item"]} key={index}> <Link  onClick={closeMobileMenu} className={styles["nav-links"]} href={toPath(item)} >{item} </Link></li>
   })
 
   return (
@@ -56,8 +43,7 @@ function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles["navbar-container"]}>
                 <Link href='/' className={styles["navbar-logo"]} onClick={closeMobileMenu}> 
-                    <Image width={40} height={40} src='/images/computethefuturelogo.png' alt="" />
-                    Compute the Future Foundation
+                    <img src='/images/cff_logo_transparent.png' alt="" />
                 </Link>
 
                 <div className={styles["menu-icon"]} onClick={handleClick}>
@@ -68,6 +54,7 @@ function Navbar() {
                   {itemList}
                   {button && <Button path='https://www.paypal.com/donate/?hosted_button_id=UP3ZGFTQ7YZ96' buttonStyle='btn--outline' buttonSize='btn--large'>Donate</Button>}
                 </ul>
+                
             </div>
         </nav>
     </nav>

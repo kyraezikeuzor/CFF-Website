@@ -9,14 +9,14 @@
     margin: 0;
     font-size: 14px;
     font-weight: 500;
-    border: 1px solid var(--span-color);
+    border: 1px solid var(--border-color-primary);
     border-radius: 18px;
     padding: 4px 20px;
     backdrop-filter: blur(1px);
 }
 
 .tag p:hover {
-    border: 1px solid var(--highlight-color);
+    border: 1px solid var(--color-secondary);
     font-weight: 600;
     cursor: pointer;
 }

@@ -3,6 +3,7 @@ import React from 'react';
 import HeroSection from '../components/Home/Hero';
 import Banner from '../components/Global/Banner';
 import Subscribe from '../components/Home/Subscribe';
+import EmailForm from '../components/Global/EmailForm';
 import WhatWeDo from '../components/Home/WhatWeDo';
 import Founders from '../components/Home/Founders'
 import Figures from '../components/Home/Figures';

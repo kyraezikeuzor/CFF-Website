@@ -12,27 +12,10 @@
     text-align: center;
 }
 
-.founders p {
-    text-align: left;
-}
-
 .founders Button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 18px;
-}
-
-.founders-text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.founders-text-container p {
-    text-align: center;
-    inline-size: 75%;
-    overflow-wrap: break-word;
 }
 
 .founders-container {
@@ -53,7 +36,6 @@
     display: none;
 }
 
-
 .bottom-doodle {
     height: auto;
     width: 10vw;
@@ -66,10 +48,6 @@
 @media screen and (max-width: 960px) {
     .founders {
         flex-direction: column;
-    }
-
-    .founders-text-container p {
-        inline-size: 100%;
     }
 
 }

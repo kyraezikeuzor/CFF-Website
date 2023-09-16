@@ -6,11 +6,11 @@ import styles from './styles.module.css';
 
 function Programs() {
   return (
-    <main className={styles.main}>
-        <header>
-          <h2>Our Programs</h2>
-          <p className={styles["caption"]}>Our programs offer an enriching and immersive experience that equips young minds with the knowledge and skills to thrive in the digital world.</p>
-        </header>
+    <main className="main">
+        <div className="text-container">
+          <h1>Programs</h1>
+          <p>Our programs offer an enriching and immersive experience that equips young minds with the knowledge and skills to thrive in the digital world.</p>
+        </div>
 
       <div className={styles["programs-container"]}>
         {programData.map((item, index) => ( 
@@ -19,9 +19,9 @@ function Programs() {
           src={item.src}
           alt={item.alt}
           title={item.name}
+          text={item.description}
           tags={item.tags}
           btnText="Sign Up"
-          text={item.description}
         /> ))}
       </div>
     </main>

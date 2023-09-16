@@ -7,12 +7,12 @@ import Section from '../../components/Global/Section'
 
 function About() {
   return (
-    <div className={styles.main}>
-        <header>
+    <div className="main">
+        <div className="text-container">
           <h1>Our Team</h1>
           <p>Welcome to the page where we introduce you to the amazing individuals who make up our team at Compute the Future Foundation. 
           We are a group of dedicated individuals with a shared mission: to inspire and empower young minds through computer science and technology.</p>
-        </header>
+        </div>
 
         <div className={styles["team-container"]}>
             {teamData.map((item, index) => (

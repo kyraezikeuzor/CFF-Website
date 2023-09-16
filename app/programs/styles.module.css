@@ -1,0 +1,11 @@
+.programs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .programs-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,6 +1,6 @@
 .figures {
-    padding: var(--section-padding-medium);
-    background-color: #f8fbfd;
+    padding: var(--padding-primary);
+    background-color: var(--color-tertiary);
     display: flex;
     flex-direction: column;
 }

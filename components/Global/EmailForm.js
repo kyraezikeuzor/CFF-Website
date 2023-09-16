@@ -1,6 +1,7 @@
 'use client'
 import styles from './EmailForm.module.css';
 import { useFormFields, useMailChimpForm } from "use-mailchimp-form";
+import { Button } from './Button';
 
 function EmailForm() {
     const url = "https://computefutures.us8.list-manage.com/subscribe/post?u=65c2aba71bc6d41953c14cc83&amp;id=5a1e70d2cb&amp;f_id=007105e0f0";
@@ -21,40 +22,41 @@ function EmailForm() {
 
   return (
     <div className={styles["email-form-container"]}>
-      <form
+      <form className="flex-column"
         onSubmit={event => {
           event.preventDefault();
           handleSubmit(fields);
         }}
       >
-        <input
-          id="EMAIL"
-          className={styles.input}
-          autoFocus
-          type="email"
-          placeholder="Enter email address"
-          value={fields.EMAIL}
-          onChange={handleFieldChange}
-        />
+        <p>Subscribe to our newsletter <br/> 
+        Learn about our latest events, resources,
+programs, and more!</p>
         <input
             id="FNAME"
-            className={styles.input}
             autoFocus
             type="text"
-            placeholder="Enter first name"
+            placeholder="First name"
             value={fields.FNAME}
             onChange={handleFieldChange}
         />
         <input
             id="LNAME"
-            className={styles.input}
             autoFocus
             type="text"
-            placeholder="Enter last name"
+            placeholder="Last name"
             value={fields.LNAME}
             onChange={handleFieldChange}
         />
-        <button className={styles["submit-btn"]}>Sign Up</button>
+        <input
+          id="EMAIL"
+          autoFocus
+          type="email"
+          placeholder="Email"
+          value={fields.EMAIL}
+          onChange={handleFieldChange}
+        />
+        <button>Submit</button>
+        
       </form>
       {loading && "Submitting..."}
       {error && message}

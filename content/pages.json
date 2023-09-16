@@ -1,1 +1,18 @@
-["Home", "Who We Are", "Mission"]
+[
+    {
+        "name" : "About CFF",
+        "pages" : ["Impact","Who We Are", "Mission"]
+    },
+    {
+        "name" : "Resources",
+        "pages" : ["Scholars"]
+    },
+    {
+        "name" : "Programs",
+        "pages" : ["Programs"]
+    },
+    {
+        "name" : "Get Involved",
+        "pages" : ["Instructors"]
+    }
+]

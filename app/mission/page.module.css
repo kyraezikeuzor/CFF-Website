@@ -2,20 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: var(--section-gap);
-    margin: var(--page-margin);
-}
-
-.main header {
-    text-align: left;
-    margin-bottom: 20px;
-    gap: var(--section-gap);
-    display: flex;
-    flex-direction: row;
-}
-
-.main header img {
-    width: 500px;
-    height: auto;
+    margin: var(--margin-primary);
 }
 
 .main span {
@@ -24,26 +11,15 @@
     height: 1px;
 }
 
-.mission-content {
+.mission-content-container {
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
 
-.mission-content section::before {
-    content: url('https://super.so/icon/dark/compass.svg');
-}
-
 
 @media screen and (max-width: 960px) {
-    .main header {
-        flex-direction: column;
-    }
-    .main header img {
-        width: 100%;
-    }
-
-    .mission-content {
+    .mission-content-container {
         flex-direction: column;
     }
 }

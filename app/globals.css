@@ -1,17 +1,32 @@
 :root {
-    --primary-font: 'General Sans', sans-serif;
+    /*PADDING*/
+    --padding-primary: 8vh 12vw;
+    --padding-large: 8vh 16vw;
+    --padding-narrow: 8vh 6vw;
+    --footer-padding: 8vh 6vw;
+
+    /*MARGIN*/
+    --margin-primary: 8vh 12vw;
+    --margin-large: 8vh 16vw;
+
+    /*FONTS*/
     --italic-font: 'Zodiak', serif;
-    --span-color: #d3d5d7;
-    --highlight-color: #1D4ED8;
-    --footer-body-color: #12263F;
-    --page-margin: 8vh 12vw;
+
+    /*COLORS*/
+    --color-primary: #2D84EE;
+    --color-secondary: #0a2846;
+    --color-tertiary: #fcfbfd;
+    --color-quarternary: #b4cfeb;
+    --border-color-primary: #e7e9e9;
+
     --hero-padding: 10vh 12vw;
-    --footer-padding: 10vh 16vw;
     --section-padding-medium: 8vh 12vw;
     --section-padding-large: 8vh 16vw;
     --section-gap: 40px;
     --section-gap-small: 10px;
-    --shadow-primary: rgba(0,0,0, 0.05) 0 6px 24px, rgba(0,0,0, 0.08) 0 0 0 1px;
+
+    /*ACCESSORIES*/
+    --box-shadow-primary: rgba(0,0,0, 0.05) 0 6px 24px, rgba(0,0,0, 0.08) 0 0 0 1px;
 }
 
 body {
@@ -19,13 +34,33 @@ body {
     margin: 0;
 }
 
+/*PAGES*/
+.main {
+    margin: var(--margin-primary);
+}
+
+/*TYPES*/
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 span {
-    background-color: var(--span-color);
-    width: 2px;
+    background-color: var(--border-color-primary);
+    width: 1px;
     height: 100px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     color: #242424;
     margin-bottom: 10px;
     font-weight: 600;
@@ -55,8 +90,14 @@ h5 {
     font-weight: 500;
 }
 
+h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
 p {
-    font-size: 15px;
+    color: #242424;
+    font-size: 14px;
     line-height: 140%;
     margin: 5px 0;
 }
@@ -65,12 +106,30 @@ i {
     font-family: var(--italic-font);
 }
 
+/*CONTAINERS*/
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    text-align: center;
+    inline-size: 75%;
+    overflow-wrap: break-word;
+}
+
+
+/*ITEMS*/
 .doodle {
     width: 200px;
     height: auto;
 }
 
 @media screen and (max-width: 960px) {
+
     h1 {
         font-size: 48px;
         line-height: 38px;
@@ -78,5 +137,8 @@ i {
     span {
         width: 200px;
         height: 1px;
+    }
+    .text-container p {
+        inline-size: 100%;
     }
 }

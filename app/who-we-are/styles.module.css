@@ -1,51 +1,6 @@
-.main {
-    margin: var(--page-margin);
-}
-
-.main header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 .team-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
     gap: var(--section-gap);
-}
-
-.team-container img {
-    width: 200px;
-    height: auto;
-}
-
-.team-container h4 {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.team-container h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-.team-container p {
-    font-size: 14px;
-}
-
-.team-container Button {
-    display: none;
-}
-
-@media screen and (max-width: 960px) {
-    .team-container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}
-@media screen and (max-width: 760px) {
-    .team-container img {
-        width: 100%;
-    }
 }

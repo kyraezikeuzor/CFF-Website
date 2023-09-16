@@ -6,8 +6,7 @@ import styles from './Logo.module.css'
 export const Logo = ({}) => {
   return (
     <Link href='/' className={styles["logo"]}> 
-        <Image width={40} height={40} src='/images/computethefuturelogo.png' alt="" />
-            Compute the Future Foundation
+      <img src='/images/cff_logo_transparent.png' alt="" />
     </Link>
   )
 }

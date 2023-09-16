@@ -7,7 +7,7 @@ import Card from '../Global/Card'
 export default function Teaching() {
   return (
     <div className={styles["subjects-container"]}>
-        <div className={styles["subjects-text-container"]}>
+        <div className="text-container">
             <h1>Teaching</h1>
             <p>Our courses include engaging lessons and activities that culminate in project showcases and coding competitions called Hackathons where your child will collaborate, share ideas, and compete for fun prizes. </p>
             

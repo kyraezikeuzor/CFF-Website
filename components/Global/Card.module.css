@@ -10,7 +10,7 @@
     padding: 30px;
     border-radius: 12px;
     background-color: rgb(253, 253, 255);
-    box-shadow: var(--shadow-primary);
+    box-shadow: var(--box-shadow-primary);
 }
 
 .card * {
@@ -24,13 +24,8 @@
     width: 100%;
 }
 
-.card-text-container h3 {
+.card-text-container h4 {
     text-align: left;
-    color: rgb(21, 18, 18);
-}
-
-.card-text-container p {
-    font-size: 14px;
 }
 
 .row {

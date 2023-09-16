@@ -17,7 +17,7 @@ function Founders() {
 
   return (
     <div className={styles["founders"]}>
-        <div className={styles["founders-text-container"]}>
+        <div className="text-container">
           <h1>Our Founders</h1>
           <p>Our founders power Compute the Future Foundation. 
             They create our curriculum and partner with like-minded organizations to keep our programs cutting-edge.</p>
