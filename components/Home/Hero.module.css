@@ -86,10 +86,14 @@
 
 }
 @media screen and (max-width: 760px) {
+    .hero-div h1 {
+        font-size: 60px;
+        line-height: 0.8;
+    }
+    
     .hero-div p {
         inline-size: 100%;
     }
-
     .hero-div {
         align-items: center;
     }
