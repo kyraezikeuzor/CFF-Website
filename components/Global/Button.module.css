@@ -9,7 +9,8 @@
 
 .btn--primary {
     color: #fff;
-    background-color: var(--color-primary);
+    /*background-color: var(--color-primary);*/
+    background-color: var(--color-secondary);
 }
 
 .btn--outline {
@@ -31,7 +32,7 @@
 }
 
 .btn--primary:hover {
-    background-color: var(--color-secondary);
+    opacity: .8;
 }
 
 .btn--outline:hover {
