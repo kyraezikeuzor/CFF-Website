@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Card} from '../Global/Card';
 import styles from './WhatWeDo.module.css';
 import {Button} from '../Global/Button';
 import Section from '../Global/Section';
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function WhatWeDo() {
+  useEffect(()=>{
+    Aos.init({duration: 500});
+  }, []);
+
+
   return (
     <div className={styles["whatwedo-container"]}>
         <div className="text-container">
@@ -12,7 +20,7 @@ function WhatWeDo() {
             <p>With our comprehensive learning opportunities, we strive to equip young minds with essential skills to thrive in the digital age. 
               Here&apos;s a quick overview of what we offer:</p>
         </div>
-        <div className={styles["programs-container"]} >
+        <div data-aos="fade-up" className={styles["programs-container"]} >
             <Section
             alt="Student"
             src="/images/cff-hero-image-grey.png"

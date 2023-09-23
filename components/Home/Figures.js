@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styles from './Figures.module.css';
 import {Button} from '../Global/Button'
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 export default function Figures() {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+  }, []);
+
+
   return (
-    <div className={styles.figures}>
+    <div data-aos="fade-up" className={styles.figures}>
         <section className={styles["figures-text-container"]}>
           <div className={styles["donate-text-container"]}>
               <h3>We are a non-profit with the mission of inspiring students</h3>

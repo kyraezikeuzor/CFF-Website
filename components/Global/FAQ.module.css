@@ -1,6 +1,5 @@
 .section {
     padding: var(--padding-large);
-    background-color: var(--color-tertiary);
 }
 
 .section h1 {

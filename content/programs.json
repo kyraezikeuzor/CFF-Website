@@ -1,14 +1,14 @@
 [
     {
         "name" : "After School Coding",
-        "description" : "Taking the SAT this fall? Learn test-taking strategies, work on practice tests.",
+        "description" : "",
         "tags" : "Web Development, Coding, In-Person, Computer Science",
         "src" : "./images/cff-hero-image-grey.png",
         "alt" : ""
     },
     {
         "name" : "Summer Coding Camp",
-        "description" : "Taking the SAT this fall? Learn test-taking strategies, work on practice tests.",
+        "description" : "",
         "tags" : "Hackathons, Programming, Virtual, Computer Science",
         "src" : "./images/cff-hero-image-grey.png",
         "alt" : ""

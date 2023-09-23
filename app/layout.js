@@ -3,6 +3,7 @@ import Navbar from '../components/Global/Navbar';
 import Footer from '../components/Global/Footer';
 import head from 'next/head';
 import { Inter } from 'next/font/google';
+import Banner from '../components/Global/Banner';
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar/>
           <main>{children}</main>
+        {/*<Banner text="Compute the Future Foundation strives to educate the young students in our areas in computer science and technology. Our goal is to impact the youth in our local communities by giving them the tools necessary to expand their interests and aspirations."/>*/}
         <Footer/>
       </body>
     </html>

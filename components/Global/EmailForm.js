@@ -31,9 +31,11 @@ function EmailForm() {
         <p>Subscribe to our newsletter <br/> 
         Learn about our latest events, resources,
 programs, and more!</p>
+
+        <fieldset>
         <input
             id="FNAME"
-            autoFocus
+            
             type="text"
             placeholder="First name"
             value={fields.FNAME}
@@ -41,15 +43,17 @@ programs, and more!</p>
         />
         <input
             id="LNAME"
-            autoFocus
+            
             type="text"
             placeholder="Last name"
             value={fields.LNAME}
             onChange={handleFieldChange}
         />
+        </fieldset>
+        
         <input
           id="EMAIL"
-          autoFocus
+          
           type="email"
           placeholder="Email"
           value={fields.EMAIL}

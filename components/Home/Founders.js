@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styles from './Founders.module.css';
 import Section from '../Global/Section';
 import {Button} from '../Global/Button';
 import teamData from '../../content/team.json';
+
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 function Founders() {
   let foundersList = teamData.map((item, index) => {
@@ -15,6 +19,11 @@ function Founders() {
     }
   })
 
+  useEffect(()=>{
+    Aos.init({duration: 500});
+  }, []);
+
+
   return (
     <div className={styles["founders"]}>
         <div className="text-container">
@@ -24,7 +33,7 @@ function Founders() {
             <Button path="/who-we-are" buttonSize='btn--large'>Meet Our Team</Button>
         </div>
       
-        <div className={styles["founders-container"]}>
+        <div data-aos="fade-up" className={styles["founders-container"]}>
         { foundersList}
         </div>
   

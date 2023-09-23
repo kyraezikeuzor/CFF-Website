@@ -4,7 +4,7 @@ import styles from './Banner.module.css';
 
 function Banner(props) {
     return (
-        <div className={styles["banner-container"]}>{props.text}</div>
+        <div className={styles.banner}>{props.text}</div>
     )
 };
 

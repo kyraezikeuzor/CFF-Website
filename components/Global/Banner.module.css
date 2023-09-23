@@ -1,10 +1,9 @@
-.banner-container {
-    background-color: #1D68B8;
+.banner {
+    background-color: var(--color-primary);
     color: white;
     text-align: center;
     padding: 1em 6vw;
     font-weight: 800px;
     line-height: 100%;
-    box-shadow: 0 2px 6px rgba(124, 123, 123, 0.2);
+    box-shadow: var(--box-shadow-primary);
 }
-
