@@ -22,16 +22,16 @@ function WhatWeDo() {
         </div>
         <div data-aos="fade-up" className={styles["programs-container"]} >
             <Section
+            showBtn={false}
             alt="Student"
             src="/images/cff-hero-image-grey.png"
             type="Design and code websites"
             title="Web Development" 
             text="Students learn how to design and build their own websites, gaining practical skills in HTML, CSS, and JavaScript."
             tags="HTML, CSS, JavaScript"
-            path="/our-programs"
-            btnText="Learn More"
             />
             <Section
+            showBtn={false}
             flexOrder="row-reverse"
             alt="Student"
             src="/images/cff-hero-image-grey.png"
@@ -39,8 +39,6 @@ function WhatWeDo() {
             title="Engineering Discoveries" 
             text="Students learn to build and program robots, enabling them to understand the fundamentals of engineering and automation while having fun in the process."
             tags="Arduino, RaspberryPi, Makerbots"
-            path="/our-programs"
-            btnText="Learn More"
             />
         </div>
         

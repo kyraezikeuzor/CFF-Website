@@ -39,6 +39,10 @@ body {
     margin: var(--margin-primary);
 }
 
+main, section {
+    max-width: 1440px;
+}
+
 /*TYPES*/
 .flex-row {
     display: flex;
@@ -54,11 +58,20 @@ body {
     gap: 20px;
 }
 
+/*GLOBALS*/
 span {
     background-color: var(--border-color-primary);
     width: 1px;
     height: 100px;
 }
+
+a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     color: #242424;

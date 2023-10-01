@@ -3,14 +3,14 @@
         "name": "Kyra Ezikeuzor",
         "about" : "Hi! I am a junior in high school. My hobbies are programming, running, reading, and writing. My goal is to be pre-med in college and minor in computer science. I hope to impact the medical field with computer science.",
         "role" : "Founder & President",
-        "tags" : "Computer Science, Medicine, Writing",
+        "tags" : "Computer Science, Medicine",
         "src" : "./images/team/kyra-e-img.png"
     },
     {
         "name": "Blair Middleton",
         "about" : "Hello World! My name is Blair Middleton and I am a rising junior in highschool. Some of my hobbies include running, community service, and cooking. I hope to major in biomedical engineering or biochemistry. Since I was a little girl, Computer Science and Technology captivated me and I loved it ever since. I hope to teach other kids to unlock that joy and fascination in computer science so they can pursue Computer Science in the future.",
         "role" : "Founder & President",
-        "tags" : "Environmentalism, Computer Science",
+        "tags" : "Climate, Computer Science",
         "src" : "./images/team/blair-m-img.png"
     },
     {
@@ -31,14 +31,14 @@
         "name": "Wesley Ho",
         "about" : "I'm Wesley Ho, a rising junior with diverse interests. You'll often find me on the rugby field. Besides sports, I'm actively involved in several clubs, including the Medic Club, where I learn life-saving skills. As a member of the Asian Culture Club, I cherish my heritage and enjoy celebrating it with like-minded peers. However, my true passion lies in the Computer Programming Club. Computer science fascinates me because it opens endless possibilities and has the power to shape the future.",
         "role" : "Director of Finances",
-        "tags" : "Rugby, Medicine, Computer Science",
+        "tags" : "Rugby, Computer Science",
         "src" : "./images/team/wesley-ho-img.png"
     },
     {
         "name": "Donald Chu",
-        "about" : "My name is Donald Chu",
+        "about" : "My name is Donald Chu and I am 16 years old. I attend the 11th grader at Van Houston Academy. In my free time, I like to play video games, develop software, play basketball, or hangout with my friends.",
         "role" : "Director of Curriculum",
         "tags" : "Computer Science",
-        "src" : "./images/profile-standin.jpg"
+        "src" : "./images/team/donald-chu.png"
     }
 ]

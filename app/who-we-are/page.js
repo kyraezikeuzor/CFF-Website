@@ -17,13 +17,13 @@ function About() {
         <div className={styles["team-container"]}>
             {teamData.map((item, index) => (
             <Section 
-            imageSize="medium"
             key={index}
             src={item.src}
             alt={item.name}
             title={item.name}
             type={item.role}
             text={item.about}
+            imageSize='medium'
             tags={item.tags}
             />
             ))}

@@ -19,16 +19,10 @@ export default function Home() {
     <main className={styles.main}>
       
         <HeroSection />
-        
         <Figures/>
-        
-      
         <WhatWeDo/>
-
         <Teaching />
-
         <Founders/> 
-        
         <FAQ/>
         
     </main>
