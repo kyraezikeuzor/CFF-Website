@@ -35,7 +35,7 @@ body {
 }
 
 * {
-    font-family: --var(--primary-font);
+    font-family: var(--primary-font);
 }
 
 /*PAGES*/
