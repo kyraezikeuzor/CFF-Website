@@ -10,7 +10,7 @@
     --margin-large: 8vh 16vw;
 
     /*FONTS*/
-    --italic-font: 'Zodiak', serif;
+    --primary-font: 'Inter', sans-serif;
 
     /*COLORS*/
     --color-primary: #2D84EE;
@@ -32,6 +32,10 @@
 body {
     padding: 0;
     margin: 0;
+}
+
+* {
+    font-family: --var(--primary-font);
 }
 
 /*PAGES*/
@@ -142,7 +146,6 @@ i {
 }
 
 @media screen and (max-width: 960px) {
-
     h1 {
         font-size: 48px;
         line-height: 38px;
