@@ -34,9 +34,9 @@ body {
     margin: 0;
 }
 
-* {
+/* *{ 
     font-family: var(--primary-font);
-}
+}*/
 
 /*PAGES*/
 .main {
@@ -117,10 +117,6 @@ p {
     font-size: 14px;
     line-height: 140%;
     margin: 5px 0;
-}
-
-i {
-    font-family: var(--italic-font);
 }
 
 /*CONTAINERS*/
