@@ -10,7 +10,7 @@
     --margin-large: 8vh 16vw;
 
     /*FONTS*/
-    --primary-font: 'Inter', sans-serif;
+    
 
     /*COLORS*/
     --color-primary: #2D84EE;
@@ -34,9 +34,9 @@ body {
     margin: 0;
 }
 
-/* *{ 
-    font-family: var(--primary-font);
-}*/
+*{ 
+    font-family: 'Inter', sans-serif;
+}
 
 /*PAGES*/
 .main {
